@@ -28,19 +28,6 @@ Geliştiricinin her teknik başarısı ödüllendirilir ve `kardelen_memory.json
 | API Servisi Başlatma | +150 XP | `cloud_architect` |
 | Hata Sonrası `rewind` Kullanımı | +75 XP | `time_lord` |
 
-## 📋 Örnek Kullanım
-
-```kardelen
-// Sonsuz bellek kullanımı
-sonsuz mutlak kullanici = "Elif Nur";
-
-// Instant API oluşturma
-fonksiyon topla(a, b) { don a + b; }
-servis_yap(topla, 5000);
-
-// Jarvis sesli komut
-Ses.jarvis("Ekrana kırmızı bir kare çiz");
-
 ## Görseller
 
 <img width="857" height="480" alt="image" src="https://github.com/user-attachments/assets/cbc10722-f49c-4ac9-bd09-8a9a3002e585" />
@@ -60,10 +47,18 @@ Ses.jarvis("Ekrana kırmızı bir kare çiz");
 **Geliştirici:** [Elif Nur Ayhan](https://github.com/ElifNur06) – 2026 🔗
 
 
+## 📋 Örnek Kullanım
 
+```kardelen
+// Sonsuz bellek kullanımı
+sonsuz mutlak kullanici = "Elif Nur";
 
+// Instant API oluşturma
+fonksiyon topla(a, b) { don a + b; }
+servis_yap(topla, 5000);
 
-
+// Jarvis sesli komut
+Ses.jarvis("Ekrana kırmızı bir kare çiz");
 
 
 
